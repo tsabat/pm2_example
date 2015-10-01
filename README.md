@@ -53,3 +53,8 @@ pm2 stop app
 By syadmins, yo!  Or, with a git pull and `pm2 restart app` command.
 
 Easy cheezy!
+
+## Is there a better way?
+
+Yep, have your syadmins install the docker daemon on a machine and tell them
+that you'll be responsible for the images.
