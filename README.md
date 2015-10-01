@@ -3,7 +3,9 @@
 This will get you started on a centos server with a node process manager with a
 basic app in `/opt/app/`.
 
-If you want to test this out locally, pull this repo, cd into it, then run this:
+If you want to test this out locally, install [docker
+machine](https://docs.docker.com/machine/), pull this repo, cd into it, then run
+this:
 
 ```
 docker build -t pm2 .
@@ -35,7 +37,7 @@ pm2 handles logrotate
 
 ## How does the NodeJS server get started on system boot?
 
-pm2 can be told to auto-start the services, you have to run pm2 as a daemon, bu
+pm2 can be told to auto-start the services, you have to run pm2 as a daemon, but
 that's in the instructions too.
 
 ## How is the NodeJS server stopped?
